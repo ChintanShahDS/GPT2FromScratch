@@ -52,7 +52,7 @@ Created a GPT2 from Scratch using Shakespeare data - But can be used with any ot
 ## Detailed Training log
 - Full log file kept at logGPT2_5000Its.txt
 - Important Excerpts from the log
-"""
+```
 step0 | loss: 10.947460174560547 | dt: 17781.67ms | tok/sec:  921.40 | norm: 28.57 | lr: 0.00001000
 step59 | loss: 5.556936264038086 | dt: 2003.82ms | tok/sec:  8176.37 | norm: 1.13 | lr: 0.00060000
 step999 | loss: 2.0623185634613037 | dt: 2236.46ms | tok/sec:  7325.86 | norm: 1.77 | lr: 0.00055327
@@ -61,7 +61,7 @@ step1999 | loss: 0.06174922734498978 | dt: 2227.44ms | tok/sec:  7355.54 | norm:
 step2999 | loss: 0.005564077757298946 | dt: 2226.34ms | tok/sec:  7359.16 | norm: 0.28 | lr: 0.00025066
 step3999 | loss: 0.0014109887415543199 | dt: 2231.74ms | tok/sec:  7341.36 | norm: 0.02 | lr: 0.00011288
 step4999 | loss: 0.001211557537317276 | dt: 2222.14ms | tok/sec:  7373.08 | norm: 0.01 | lr: 0.00006000
-"""
+```
 
 ## Observations
 - lr scheduler can help faster convergence
